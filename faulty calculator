@@ -1,0 +1,18 @@
+no1=int(input("enter first no:"))
+no2=int(input("enter second no:"))
+operator=str(input("enter the operator(*,/,+,-):"))
+answer=no1,operator,no2
+if no1==45 and no2==3 and operator== '*':
+    print(555)
+if no1==56 and no2==9 and operator=='+':
+    print(77)
+if no1==56 and no2==6 and operator=='/':
+    print(4)
+elif operator=='+':
+    print(no1+no2)
+elif operator=='-':
+    print(no1-no2)
+elif operator=='*':
+    print(no1*no2)
+elif operator=='/':
+    print(no1/no2)
