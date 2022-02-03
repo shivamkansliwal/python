@@ -1,0 +1,45 @@
+var1=4
+var2=5
+var3 =int(input())
+
+if var3>var2:
+    print("greater")
+elif var3==var2:
+    print("equal")
+else:
+    print("lesser")
+# 
+var1=[1,2,3,4,5]
+if 2 not in var1:
+    print("no")
+# ''''''
+45*3 =555, 56+9=77 ,56/6=
+no1=int(input("enter first no:"))
+no2=int(input("enter second no:"))
+operator=str(input("enter the operator(*,/,+,-):"))
+answer=no1,operator,no2
+if no1==45 and no2==3 and operator== '*':
+    print(555)
+if no1==56 and no2==9 and operator=='+':
+    print(77)
+if no1==56 and no2==6 and operator=='/':
+    print(4)
+elif operator=='+':
+    print(no1+no2)
+elif operator=='-':
+    print(no1-no2)
+elif operator=='*':
+    print(no1*no2)
+elif operator=='/':
+    print(no1/no2)
+''''''''
+-------------------------------
+# 
+aritmatic operator
+print("5 + 6 is ",5+6)
+print('5-6 is',5-6)
+print('5*6 is',5*6)
+print('5/6 is ',5/6)
+print('15//6',15//6)
+print('5**3',5**3)
+print('5%2',5%2)
