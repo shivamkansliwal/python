@@ -1,0 +1,16 @@
+# a=8
+# b=4
+# c=sum((a,b)) #built in function
+
+def function1 (a,b):
+    print("hello you are in function1 ",a+b)
+def function2 (a,b):
+    """This function is not use in 3 variable"""
+    average = (a+b)/2
+    print(average)
+    return average
+# v= function2 (5,7)
+# print(v)
+print(function2.__doc__)
+
+
